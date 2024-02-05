@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hounter</title>
+</head>
+<body>
+	<header class="header">
+		<!-- header left block -->
+		<div>
+			<a href="/" class="header__logo">
+				<img src="./img/logo.svg" alt="Hounter Logo">
+				Hounter
+			</a>
+
+			<div class="header__text">
+				<h1 class="header__text-title">
+					Find the place to <br>
+					live <span class="header__main-text--accent">your dreams</span> <br>
+					easily here
+				</h1>
+
+				<p class="header__text-paragraph">
+					Everything you need about finding your place to live will be here,
+					where it will be easier for you
+				</p>
+			</div>
+
+			<form class="header__input">
+				<!-- An image of pointer will be placed as ::before -->
+				<img src="./img/point.svg" alt="">
+				<input type="text" name="location" id="location" placeholder="Our Partnership">
+				<button type="submit">
+					Search
+					<img src="./img/arrow-right.svg" alt="Arrow right">
+				</button>
+			</form>
+
+			<div class="header__partners">
+				<h4 class="header__partners-title">Our Partnership</h4>
+
+				<ul class="header__partners-list">
+					<li class="header__partners-item">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/partner1.webp 1x, ./img/partner1@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/partner1.png 1x, ./img/partner1@2x.png 2x"
+							>
+
+							<img src="./img/partner1.png" alt="Traveloka" class="header__partners-img">
+						</picture>
+					</li>
+					<li class="header__partners-item">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/partner2.webp 1x, ./img/partner2@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/partner2.png 1x, ./img/partner2@2x.png 2x"
+							>
+
+							<img src="./img/partner2.png" alt="Ticket.com" class="header__partners-img">
+						</picture>
+					</li>
+					<li class="header__partners-item">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/partner3.webp 1x, ./img/partner3@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/partner3.png 1x, ./img/partner3@2x.png 2x"
+							>
+
+							<img src="./img/partner1.png" alt="Airbnb" class="header__partners-img">
+						</picture>
+					</li>
+					<li class="header__partners-item">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/partner4.webp 1x, ./img/partner4@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/partner4.png 1x, ./img/partner4@2x.png 2x"
+							>
+
+							<img src="./img/partner4.png" alt="TripAdvisor" class="header__partners-img">
+						</picture>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- header right block -->
+		<div>
+			<div class="header__hero">
+				<nav class="header__nav">
+					<ul class="header__nav-list">
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">About Us</a>
+						</li>
+	
+						<li class="header__nav-item">
+							<a href="#" class="header__nav-link">Article</a>
+						</li>
+	
+						<li class="header__nav-item">
+							<select name="nav-select" id="nav-select">
+								<option value="property">Property</option>
+								<option value="houses">Houses</option>
+							</select>
+						</li>
+					</ul>
+				</nav>
+	
+				<!-- This is button, 'cause it could open modal for instance -->
+				<button class="header__sign-up">Sign Up</button>
+
+				<!-- later this will be as a background image -->
+				<img src="./img/hero.jpg" alt="Hero">
+
+				<ul class="header__houses-list">
+					<li class="header__houses-item">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/header-house1.webp 1x, ./img/header-house1@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/header-house1.png 1x, ./img/header-house1@2x.png 2x"
+							>
+						
+							<img src="./img/header-house1.png" alt="Manhattan Style" class="header__houses-image">
+						</picture>
+
+						<div class="header__houses-block">
+							<h5 class="header__houses-title">Manhattan Style</h5>
+							<p class="header__houses-text">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+
+							<p class="header__houses-rating">
+								<!-- later this will be pseudo element ::before -->
+								<img src="./img/star.svg" alt="Stars">
+								4.8 (400+ Review)
+							</p>
+						</div>
+					</li>
+
+					<li class="header__houses-item">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/header-house2.webp 1x, ./img/header-house2@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/header-house2.png 1x, ./img/header-house2@2x.png 2x"
+							>
+							
+							<img src="./img/header-house2.png" alt="New House For Your Future" class="header__houses-image">
+						</picture>
+
+						<div class="header__houses-block">
+							<h5 class="header__houses-title">New House For Your Future</h5>
+							<p class="header__houses-text">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+
+							<p class="header__houses-rating">
+								<!-- later this will be pseudo element ::before -->
+								<img src="./img/star.svg" alt="Stars">
+								4.8 (400+ Review)
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="header__features">
+				<div class="header__feature">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/small-avatars.webp 1x, ./img/small-avatars@2x.webp 2x"
+						>
+						<source
+							type="image/png"
+							srcset="./img/small-avatars.png 1x, ./img/small-avatars@2x.png 2x"
+						>
+					
+						<img src="./img/small-avatars.png" alt="Peoples">
+					</picture>
+
+					<h5 class="header__feature-title">1K+ people</h5>
+					<p class="header__feature-text">Successfully Getting Home</p>
+				</div>
+
+				<div class="header__feature">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/header-house.webp 1x, ./img/header-house@2x.webp 2x"
+						>
+						<source
+							type="image/png"
+							srcset="./img/header-house.png 1x, ./img/header-house@2x.png 2x"
+						>
+					
+						<img src="./img/header-house.png" alt="House">
+					</picture>
+
+					<h5 class="header__feature-title">56 Houses</h5>
+					<p class="header__feature-text">Sold Monthly</p>
+				</div>
+
+				<div class="header__feature">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/header-avatar.webp 1x, ./img/header-avatar@2x.webp 2x"
+						>
+						<source
+							type="image/png"
+							srcset="./img/header-avatar.png 1x, ./img/header-avatar@2x.png 2x"
+						>
+					
+						<img src="./img/header-avatar.png" alt="Person">
+					</picture>
+
+					<h5 class="header__feature-title">4K+ People</h5>
+					<p class="header__feature-text">People Looking for New Homes</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /.header -->
+
+	<section class="featured">
+		<p class="featured__highlight section__highlight">Our recommendation</p>
+
+		<div class="featured__header">
+			<h2 class="featured__title section__title">Featured house</h2>
+			
+			<div class="featured__filter">
+				<label class="featured__label">
+					<input type="radio" name="featured-filter" checked>
+					
+					<svg class="featured__filter-icon">
+						<use xlink:href="#house" />
+					</svg>
+					House
+				</label>
+
+				<label class="featured__label">
+					<input type="radio" name="featured-filter">
+					<svg class="featured__filter-icon">
+						<use xlink:href="#villa" />
+					</svg>
+					Villa
+				</label>
+
+				<label class="featured__label">
+					<input type="radio" name="featured-filter">
+
+					<svg class="featured__filter-icon">
+						<use xlink:href="#apartment" />
+					</svg>
+					Apartment
+				</label>
+			</div>
+
+			<div class="featured__buttons">
+				<button class="featured__button">
+					<img src="./img/arrow-left.svg" alt="Previous houses">
+				</button>
+				<button class="featured__button featured__button--active">
+					<img src="./img/arrow-right.svg" alt="Next houses">
+				</button>
+			</div>
+		</div>
+
+		<div class="featured__houses">
+			<article class="featured__item">
+				<div class="featured__item-image-wrapper">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-house1.webp 1x, ./img/featured-house1@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-house1.jpg 1x, ./img/featured-house1@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-house1.jpg" alt="Roselands House" class="featured__item-image">
+					</picture>
+					<span class="featured__item-badge featured__item-badge--popular">
+						<img src="./img/popular.svg" alt="popular">
+						Popular
+					</span>
+				</div>
+
+				<h4 class="featured__item-title">Roselands House</h4>
+				<p class="featured__item-price">$ 35.000.000</p>
+
+				<div class="featured__author">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-avatar1.webp 1x, ./img/featured-avatar1@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-avatar1.jpg 1x, ./img/featured-avatar1@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-avatar1.jpg" alt="Dianne Russell">
+					</picture>
+
+					<div>
+						<p class="featured__author-name">Dianne Russell</p>
+						<p class="featured__author-location">Manchester, Kentucky</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="featured__item">
+				<div class="featured__item-image-wrapper">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-house2.webp 1x, ./img/featured-house2@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-house2.jpg 1x, ./img/featured-house2@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-house2.jpg" alt="Woodlandside" class="featured__item-image">
+					</picture>
+					<span class="featured__item-badge featured__item-badge--popular">
+						<img src="./img/new.svg" alt="new house">
+						New house
+					</span>
+				</div>
+
+				<h4 class="featured__item-title">Woodlandside</h4>
+				<p class="featured__item-price">$ 20.000.000</p>
+
+				<div class="featured__author">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-avatar2.webp 1x, ./img/featured-avatar2@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-avatar2.jpg 1x, ./img/featured-avatar2@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-avatar2.jpg" alt="Robert Fox">
+					</picture>
+
+					<div>
+						<p class="featured__author-name">Robert Fox</p>
+						<p class="featured__author-location">Dr. San Jose, South Dakota</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="featured__item">
+				<div class="featured__item-image-wrapper">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-house3.webp 1x, ./img/featured-house3@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-house3.jpg 1x, ./img/featured-house3@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-house3.jpg" alt="The Old Lighthouse" class="featured__item-image">
+					</picture>
+
+					<span class="featured__item-badge featured__item-badge--popular">
+						<img src="./img/best-deals.svg" alt="Best deals">
+						Best deals
+					</span>
+				</div>
+
+				<h4 class="featured__item-title">The Old Lighthouse</h4>
+				<p class="featured__item-price">$ 44.000.000</p>
+
+				<div class="featured__author">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-avatar3.webp 1x, ./img/featured-avatar3@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-avatar3.jpg 1x, ./img/featured-avatar3@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-avatar3.jpg" alt="Ronald Richards">
+					</picture>
+
+					<div>
+						<p class="featured__author-name">Ronald Richards</p>
+						<p class="featured__author-location">Santa Ana, Illinois</p>
+					</div>
+				</div>
+			</article>
+
+			<article class="featured__item">
+				<div class="featured__item-image-wrapper">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-house4.webp 1x, ./img/featured-house4@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-house4.jpg 1x, ./img/featured-house4@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-house4.jpg" alt="Roselands House" class="featured__item-image">
+					</picture>
+					<span class="featured__item-badge featured__item-badge--popular">
+						<img src="./img/popular.svg" alt="popular">
+						Popular
+					</span>
+				</div>
+
+				<h4 class="featured__item-title">Roselands House</h4>
+				<p class="featured__item-price">$ 35.000.000</p>
+
+				<div class="featured__author">
+					<picture>
+						<source
+							type="image/webp"
+							srcset="./img/featured-avatar4.webp 1x, ./img/featured-avatar4@2x.webp 2x"
+						>
+						<source
+							type="image/jpeg"
+							srcset="./img/featured-avatar4.jpg 1x, ./img/featured-avatar4@2x.jpg 2x"
+						>
+					
+						<img src="./img/featured-avatar4.jpg" alt="Jenny Wilson">
+					</picture>
+
+					<div>
+						<p class="featured__author-name">Jenny Wilson</p>
+						<p class="featured__author-location">Preston Rd. Inglewood, Maine 98380</p>
+					</div>
+				</div>
+			</article>
+		</div>
+	</section>
+	<!-- /.featured -->
+
+	<section class="detailed">
+		<div>
+			<p class="detailed__highlight section__highlight">Ready to sell!</p>
+			<h2 class="detailed__header">Let’s tour and see our house!</h2>
+
+			<p class="detailed__text">Houses recommended by our partners that have been curated to become the home of your dreams!</p>
+
+			<div class="detailed__details">
+				<p class="detailed__details-text">House Detail</p>
+
+				<ul class="detailed__details-list">
+					<li class="detailed__details-item">
+						<img src="./img/icon-bedroom.svg" alt="Bed icon">
+						4 Bedrooms
+					</li>
+					<li class="detailed__details-item">
+						<img src="./img/icon-carpot.svg" alt="Carpot icon">
+						1 Carport
+					</li>
+					<li class="detailed__details-item">
+						<img src="./img/icon-bathroom.svg" alt="Bathroom icon">
+						2 Bathrooms
+					</li>
+					<li class="detailed__details-item">
+						<img src="./img/icon-stairs.svg" alt="Stairs icon">
+						2 Floors
+					</li>
+				</ul>
+			</div>
+
+			<div class="detailed__manager">
+				<picture>
+					<source
+						type="image/webp"
+						srcset="./img/featured-avatar.webp 1x, ./img/avatar-manager@2x.webp 2x"
+					>
+					<source
+						type="image/png"
+						srcset="./img/featured-avatar.jpg 1x, ./img/featured-avatar@2x.jpg 2x"
+					>
+				
+					<img src="./img/featured-avatar.jpg" alt="Dianne Russell" class="detailed__manager-photo">
+				</picture>
+
+				<div class="detailed__manager-text">
+					<h4 class="detailed__manager-name">Dianne Russell</h4>
+					<p class="detailed__manager-position">Manager Director</p>
+				</div>
+
+				<a href="tel:+380666666666" class="detailed__manager-phone">
+					<img src="./img/icon-phone.svg" alt="Phone icon">
+					Contact Now
+				</a>
+			</div>
+		</div>
+
+		<div>
+			<video controls preload="auto" poster="./img/poster.jpg" class="detailed__video">
+				<source src="./img/video.mp4" type="video/mp4" />
+			  
+				Download the
+				<a href="./img/video.webm">WEBM</a>
+				or
+				<a href="./img/video.mp4">MP4</a>
+				video.
+			</video>
+			
+			<div class="detailed__images">
+				<picture>
+					<source
+						type="image/webp"
+						srcset="./img/poster1.webp 1x, ./img/poster1@2x.webp 2x"
+					>
+					<source
+						type="image/jpeg"
+						srcset="./img/poster1.jpg 1x, ./img/poster1@2x.jpg 2x"
+					>
+				
+					<img src="./img/poster1.jpg" alt="Poster 1 image" class="detailed__img detailed__img--big">
+				</picture>
+
+				<picture>
+					<source
+						type="image/webp"
+						srcset="./img/poster2.webp 1x, ./img/poster2@2x.webp 2x"
+					>
+					<source
+						type="image/jpeg"
+						srcset="./img/poster2.jpg 1x, ./img/poster2@2x.jpg 2x"
+					>
+				
+					<img src="./img/poster2.jpg" alt="Poster 2 image" class="detailed__img">
+				</picture>
+
+				<picture>
+					<source
+						type="image/webp"
+						srcset="./img/poster3.webp 1x, ./img/poster3@2x.webp 2x"
+					>
+					<source
+						type="image/jpeg"
+						srcset="./img/poster3.jpg 1x, ./img/poster3@2x.jpg 2x"
+					>
+				
+					<img src="./img/poster3.jpg" alt="Poster 3 image" class="detailed__img">
+				</picture>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews">
+		<p class="reviews__highlight section__highlight section__highlight--centered">See Our Review</p>
+		<h2 class="reviews__header">What Our User Say About Us</h2>
+
+		<article class="reviews__slider">
+			<picture>
+				<source
+					type="image/webp"
+					srcset="./img/reviews1.webp 1x, ./img/reviews1@2x.webp 2x"
+				>
+				<source
+					type="image/jpeg"
+					srcset="./img/reviews1.jpg 1x, ./img/reviews1@2x.jpg 2x"
+				>
+			
+				<img src="./img/reviews1.jpg" alt="House" class="reviews__slider-picture">
+			</picture>
+
+			<div class="reviews__slider-description">
+				<h3 class="reviews__slider-header">Best! I got the house I wanted through Hounter</h3>
+				<p class="reviews__slider-text">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+
+				<div class="reviews__slider-author">
+					<img src="./img/featured-avatar1.jpg" alt="Dianne Russell">
+
+					<div class="reviews__slider-author-text">
+						<h5 class="reviews__slider-author-name">Dianne Russell</h5>
+						<h5 class="reviews__slider-author-position">Manager Director</h5>
+					</div>
+
+					<div class="reviews__slider-rating">
+						<img src="./img/star.svg" alt="Star icon">
+						4.6
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<!-- interactive svgs. They will change color on hover/active so on -->
+	<svg display="none">
+		<symbol width="18" height="19" viewBox="0 0 18 19" id="house">
+			<path d="M18 8.83189V17.5C17.9998 17.7719 17.9262 18.0386 17.7868 18.272C17.6475 18.5054 17.4476 18.6968 17.2084 18.8259C16.9916 18.9432 16.7485 19.0031 16.5021 18.9999H11.9967C11.7978 18.9999 11.607 18.9209 11.4664 18.7803C11.3257 18.6396 11.2467 18.4488 11.2467 18.2499V13.7493C11.2467 13.5504 11.1677 13.3596 11.0271 13.2189C10.8864 13.0783 10.6956 12.9993 10.4967 12.9993H7.49673C7.29781 12.9993 7.10705 13.0783 6.9664 13.2189C6.82574 13.3596 6.74673 13.5504 6.74673 13.7493V18.2499C6.74673 18.4488 6.66771 18.6396 6.52706 18.7803C6.3864 18.9209 6.19564 18.9999 5.99673 18.9999H1.5002C1.28754 19.0005 1.07723 18.9556 0.883354 18.8682C0.689475 18.7808 0.516507 18.653 0.37604 18.4934C0.12946 18.2082 -0.00428751 17.8427 8.829e-06 17.4657V8.8318C0.000172265 8.62281 0.0439196 8.41615 0.128457 8.22503C0.212994 8.0339 0.336463 7.86251 0.490978 7.7218L7.99032 0.903078C8.26579 0.650753 8.62579 0.510777 8.99936 0.510742C9.37293 0.510707 9.73296 0.650617 10.0085 0.90289L17.5091 7.72189C17.6636 7.86263 17.787 8.03403 17.8716 8.22515C17.9561 8.41627 17.9998 8.62292 18 8.83189Z" fill="#10B981"/>
+		</symbol>
+
+		<symbol width="18" height="18" viewBox="0 0 18 18" id="villa">
+			<path d="M4 17.9999H1C0.45 17.9999 0 17.5499 0 16.9999V5.68994C0 5.26994 0.25 4.89994 0.64 4.74994L11.64 0.519938C11.7921 0.46126 11.9561 0.440637 12.118 0.459864C12.2798 0.47909 12.4345 0.537584 12.5686 0.630254C12.7027 0.722923 12.8121 0.846959 12.8873 0.991563C12.9624 1.13617 13.0012 1.29696 13 1.45994V6.99994H5C4.45 6.99994 4 7.44994 4 7.99994V17.9999ZM14 8.99994H7C6.45 8.99994 6 9.44994 6 9.99994V16.9999C6 17.5499 6.45 17.9999 7 17.9999H11V13.9999C11 13.4499 11.45 12.9999 12 12.9999C12.55 12.9999 13 13.4499 13 13.9999V17.9999H17C17.55 17.9999 18 17.5499 18 16.9999V8.99994C18 7.89994 17.1 6.99994 16 6.99994C14.9 6.99994 14 7.89994 14 8.99994Z" fill="#888B97"/>
+		</symbol>
+
+		<symbol width="18" height="18" viewBox="0 0 18 18" id="apartment">
+			<path d="M14 8V2C14 0.9 13.1 0 12 0H6C4.9 0 4 0.9 4 2V4H2C0.9 4 0 4.9 0 6V16C0 17.1 0.9 18 2 18H8V14H10V18H16C17.1 18 18 17.1 18 16V10C18 8.9 17.1 8 16 8H14ZM4 16H2V14H4V16ZM4 12H2V10H4V12ZM4 8H2V6H4V8ZM8 12H6V10H8V12ZM8 8H6V6H8V8ZM8 4H6V2H8V4ZM12 12H10V10H12V12ZM12 8H10V6H12V8ZM12 4H10V2H12V4ZM16 16H14V14H16V16ZM16 12H14V10H16V12Z" fill="#888B97"/>
+		</symbol>
+	</svg>
+</body>
+</html>
