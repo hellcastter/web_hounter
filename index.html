@@ -121,122 +121,68 @@
 							</select>
 						</li>
 					</ul>
+
+					<!-- This is button, 'cause it could open modal for instance -->
+					<button class="header__sign-up">Sign Up</button>
 				</nav>
-	
-				<!-- This is button, 'cause it could open modal for instance -->
-				<button class="header__sign-up">Sign Up</button>
 
 				<!-- later this will be as a background image -->
 				<img src="./img/hero.jpg" alt="Hero">
 
-				<ul class="header__houses-list">
-					<li class="header__houses-item">
+				<div class="header__features">
+					<div class="header__feature">
 						<picture>
 							<source
 								type="image/webp"
-								srcset="./img/header-house1.webp 1x, ./img/header-house1@2x.webp 2x"
+								srcset="./img/small-avatars.webp 1x, ./img/small-avatars@2x.webp 2x"
 							>
 							<source
 								type="image/png"
-								srcset="./img/header-house1.png 1x, ./img/header-house1@2x.png 2x"
+								srcset="./img/small-avatars.png 1x, ./img/small-avatars@2x.png 2x"
 							>
 						
-							<img src="./img/header-house1.png" alt="Manhattan Style" class="header__houses-image">
+							<img src="./img/small-avatars.png" alt="Peoples">
 						</picture>
-
-						<div class="header__houses-block">
-							<h5 class="header__houses-title">Manhattan Style</h5>
-							<p class="header__houses-text">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
-
-							<p class="header__houses-rating">
-								<!-- later this will be pseudo element ::before -->
-								<img src="./img/star.svg" alt="Stars">
-								4.8 (400+ Review)
-							</p>
-						</div>
-					</li>
-
-					<li class="header__houses-item">
+	
+						<h5 class="header__feature-title">1K+ people</h5>
+						<p class="header__feature-text">Successfully Getting Home</p>
+					</div>
+	
+					<div class="header__feature">
 						<picture>
 							<source
 								type="image/webp"
-								srcset="./img/header-house2.webp 1x, ./img/header-house2@2x.webp 2x"
+								srcset="./img/header-house.webp 1x, ./img/header-house@2x.webp 2x"
 							>
 							<source
 								type="image/png"
-								srcset="./img/header-house2.png 1x, ./img/header-house2@2x.png 2x"
+								srcset="./img/header-house.png 1x, ./img/header-house@2x.png 2x"
 							>
-							
-							<img src="./img/header-house2.png" alt="New House For Your Future" class="header__houses-image">
+						
+							<img src="./img/header-house.png" alt="House">
 						</picture>
-
-						<div class="header__houses-block">
-							<h5 class="header__houses-title">New House For Your Future</h5>
-							<p class="header__houses-text">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
-
-							<p class="header__houses-rating">
-								<!-- later this will be pseudo element ::before -->
-								<img src="./img/star.svg" alt="Stars">
-								4.8 (400+ Review)
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-
-			<div class="header__features">
-				<div class="header__feature">
-					<picture>
-						<source
-							type="image/webp"
-							srcset="./img/small-avatars.webp 1x, ./img/small-avatars@2x.webp 2x"
-						>
-						<source
-							type="image/png"
-							srcset="./img/small-avatars.png 1x, ./img/small-avatars@2x.png 2x"
-						>
-					
-						<img src="./img/small-avatars.png" alt="Peoples">
-					</picture>
-
-					<h5 class="header__feature-title">1K+ people</h5>
-					<p class="header__feature-text">Successfully Getting Home</p>
-				</div>
-
-				<div class="header__feature">
-					<picture>
-						<source
-							type="image/webp"
-							srcset="./img/header-house.webp 1x, ./img/header-house@2x.webp 2x"
-						>
-						<source
-							type="image/png"
-							srcset="./img/header-house.png 1x, ./img/header-house@2x.png 2x"
-						>
-					
-						<img src="./img/header-house.png" alt="House">
-					</picture>
-
-					<h5 class="header__feature-title">56 Houses</h5>
-					<p class="header__feature-text">Sold Monthly</p>
-				</div>
-
-				<div class="header__feature">
-					<picture>
-						<source
-							type="image/webp"
-							srcset="./img/header-avatar.webp 1x, ./img/header-avatar@2x.webp 2x"
-						>
-						<source
-							type="image/png"
-							srcset="./img/header-avatar.png 1x, ./img/header-avatar@2x.png 2x"
-						>
-					
-						<img src="./img/header-avatar.png" alt="Person">
-					</picture>
-
-					<h5 class="header__feature-title">4K+ People</h5>
-					<p class="header__feature-text">People Looking for New Homes</p>
+	
+						<h5 class="header__feature-title">56 Houses</h5>
+						<p class="header__feature-text">Sold Monthly</p>
+					</div>
+	
+					<div class="header__feature">
+						<picture>
+							<source
+								type="image/webp"
+								srcset="./img/header-avatar.webp 1x, ./img/header-avatar@2x.webp 2x"
+							>
+							<source
+								type="image/png"
+								srcset="./img/header-avatar.png 1x, ./img/header-avatar@2x.png 2x"
+							>
+						
+							<img src="./img/header-avatar.png" alt="Person">
+						</picture>
+	
+						<h5 class="header__feature-title">4K+ People</h5>
+						<p class="header__feature-text">People Looking for New Homes</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -315,14 +261,14 @@
 					<picture>
 						<source
 							type="image/webp"
-							srcset="./img/featured-avatar1.webp 1x, ./img/featured-avatar1@2x.webp 2x"
+							srcset="./img/dianne-russell1.webp 1x, ./img/dianne-russell@2x.webp 2x"
 						>
 						<source
-							type="image/jpeg"
-							srcset="./img/featured-avatar1.jpg 1x, ./img/featured-avatar1@2x.jpg 2x"
+							type="image/png"
+							srcset="./img/dianne-russell.png 1x, ./img/dianne-russell@2x.png 2x"
 						>
 					
-						<img src="./img/featured-avatar1.jpg" alt="Dianne Russell">
+						<img src="./img/dianne-russell.png" alt="Dianne Russell">
 					</picture>
 
 					<div>
@@ -502,14 +448,14 @@
 				<picture>
 					<source
 						type="image/webp"
-						srcset="./img/featured-avatar.webp 1x, ./img/avatar-manager@2x.webp 2x"
+						srcset="./img/dianne-russell.webp 1x, ./img/dianne-russell@2x.webp 2x"
 					>
 					<source
 						type="image/png"
-						srcset="./img/featured-avatar.jpg 1x, ./img/featured-avatar@2x.jpg 2x"
+						srcset="./img/dianne-russell.png 1x, ./img/dianne-russell@2x.png 2x"
 					>
 				
-					<img src="./img/featured-avatar.jpg" alt="Dianne Russell" class="detailed__manager-photo">
+					<img src="./img/dianne-russell.png" alt="Dianne Russell" class="detailed__manager-photo">
 				</picture>
 
 				<div class="detailed__manager-text">
@@ -586,6 +532,40 @@
 			<picture>
 				<source
 					type="image/webp"
+					srcset="./img/reviews2.webp 1x, ./img/reviews2@2x.webp 2x"
+				>
+				<source
+					type="image/jpeg"
+					srcset="./img/reviews2.jpg 1x, ./img/reviews2@2x.jpg 2x"
+				>
+			
+				<img src="./img/reviews2.jpg" alt="House" class="reviews__slider-picture">
+			</picture>
+
+			<div class="reviews__slider-description">
+				<h3 class="reviews__slider-header">My house sold out fast!</h3>
+				<p class="reviews__slider-text">I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
+
+				<div class="reviews__slider-author">
+					<img src="./img/courtney-henry.png" alt="Courtney Henry">
+
+					<div class="reviews__slider-author-text">
+						<h5 class="reviews__slider-author-name">Courtney Henry</h5>
+						<h5 class="reviews__slider-author-position">CEO Andarafish</h5>
+					</div>
+
+					<div class="reviews__slider-rating">
+						<img src="./img/star.svg" alt="Star icon">
+						4.3
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="reviews__slider">
+			<picture>
+				<source
+					type="image/webp"
 					srcset="./img/reviews1.webp 1x, ./img/reviews1@2x.webp 2x"
 				>
 				<source
@@ -601,7 +581,7 @@
 				<p class="reviews__slider-text">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
 
 				<div class="reviews__slider-author">
-					<img src="./img/featured-avatar1.jpg" alt="Dianne Russell">
+					<img src="./img/dianne-russell.png" alt="Dianne Russell">
 
 					<div class="reviews__slider-author-text">
 						<h5 class="reviews__slider-author-name">Dianne Russell</h5>
@@ -615,7 +595,224 @@
 				</div>
 			</div>
 		</article>
+
+		<article class="reviews__slider">
+			<picture>
+				<source
+					type="image/webp"
+					srcset="./img/reviews3.webp 1x, ./img/reviews3@2x.webp 2x"
+				>
+				<source
+					type="image/jpeg"
+					srcset="./img/reviews3.jpg 1x, ./img/reviews3@2x.jpg 2x"
+				>
+			
+				<img src="./img/reviews3.jpg" alt="House" class="reviews__slider-picture">
+			</picture>
+
+			<div class="reviews__slider-description">
+				<h3 class="reviews__slider-header">Through the Hounter, I can get a house for my self</h3>
+				<p class="reviews__slider-text">By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</p>
+
+				<div class="reviews__slider-author">
+					<img src="./img/reviews-avatar3.jpg" alt="Esther Howard">
+
+					<div class="reviews__slider-author-text">
+						<h5 class="reviews__slider-author-name">Esther Howard</h5>
+						<h5 class="reviews__slider-author-position">Head of Marketing</h5>
+					</div>
+
+					<div class="reviews__slider-rating">
+						<img src="./img/star.svg" alt="Star icon">
+						4.6
+					</div>
+				</div>
+			</div>
+		</article>
 	</section>
+
+	<section class="more">
+		<p class="more__highlight section__highlight section__highlight--centered">See tips and trick from our partnership</p>
+		<h2 class="more__header">Find out more about selling and buying homes</h2>
+		<button class="more__btn">More Artikel</button>
+
+		<div class="more__articles-wrapper">
+			<div>
+				<article class="more__article">
+					<img src="./img/more1.jpg" alt="Flat number 1">
+
+					<div class="more__article-details">
+						<p class="more__article-author">
+							<img src="./img/dianne-russell.png" alt="Dianne Russell">
+							Dianne Russell
+						</p>
+
+						<h4 class="more__article-title">The things we need to check when we want to buy a house</h4>
+
+						<time class="more__article-time" datetime="2021-04-25">
+							<img src="./img/clock.svg" alt="Clock">
+							4 min read | 25 Apr 2021
+						</time>
+					</div>
+				</article>
+
+				<article class="more__article">
+					<img src="./img/more2.jpg" alt="House number 1">
+
+					<div class="more__article-details">
+						<p class="more__article-author">
+							<img src="./img/courtney-henry.png" alt="Courtney Henry">
+							Courtney Henry
+						</p>
+
+						<h4 class="more__article-title">7 Ways to distinguish the quality of the house we want to buy</h4>
+
+						<time class="more__article-time" datetime="2021-04-24">
+							<img src="./img/clock.svg" alt="Clock">
+							6 min read | 24 Apr 2021
+						</time>
+					</div>
+				</article>
+
+				<article class="more__article">
+					<img src="./img/more3.jpg" alt="House number 2">
+
+					<div class="more__article-details">
+						<p class="more__article-author">
+							<img src="./img/darlene-robertson.png" alt="Darlene Robertson">
+							Darlene Robertson
+						</p>
+
+						<h4 class="more__article-title">The best way to know the quality of the house we want to buy</h4>
+
+						<time class="more__article-time" datetime="2021-04-24">
+							<img src="./img/clock.svg" alt="Clock">
+							2 min read | 24 Apr 2021
+						</time>
+					</div>
+				</article>
+			</div>
+
+			<article class="more__big-article">
+				<img src="./img/more4.jpg" alt="House number 3">
+
+				<p class="more__article-author">
+					<img src="./img/cameron-williamson.jpg" alt="Cameron Williamson">
+					Cameron Williamson
+				</p>
+
+				<h4 class="more__big-article-title">12 Things to know before buying a house</h4>
+				<p class="more__big-article-text">Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</p>
+
+				<time class="more__article-time" datetime="2021-04-25">
+					<img src="./img/clock.svg" alt="Clock">
+					8 min read | 25 Apr 2021
+				</time>
+			</article>
+		</div>
+	</section>
+
+	<section class="subscribe">
+		<img src="./img/subscribe-bg.jpg" alt="bg">
+
+		<h2 class="subscribe-title">Subscribe For More Info <br> and update from Hounter</h2>
+		
+		<form class="subscribe__form">
+			<img src="./img/letter.svg" alt="Letter icon">
+			<input type="email" class="subscribe__input" placeholder="Your email here" />
+			<button type="submit" class="subscribe__btn">Subscribe Now</button>
+		</form>
+	</section>
+
+	<footer class="footer">
+		<div>
+			<p class="header__logo">
+				<img src="./img/logo.svg" alt="Hounter logo">
+				Hounter
+			</p>
+			<p class="footer__text">We provide information about properties such as houses, villas and apartments to help people find their dream home</p>
+
+			<ul class="footer__socials-list">
+				<li class="footer__socials-item">
+					<a href="#">
+						<img src="./img/facebook.svg" alt="Facebook">
+					</a>
+				</li>
+
+				<li class="footer__socials-item">
+					<a href="#">
+						<img src="./img/x.svg" alt="X">
+					</a>
+				</li>
+
+				<li class="footer__socials-item">
+					<a href="#">
+						<img src="./img/instagram.svg" alt="Instagram">
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div>
+			<div class="footer__col">
+				<h4 class="footer__title">Property</h4>
+
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">House</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="#" class="footer__link">Apartment</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="#" class="footer__link">Villa</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__col">
+				<h4 class="footer__title">Article</h4>
+
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">New Article</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="#" class="footer__link">Popular Article</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="#" class="footer__link">Most Read</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="#" class="footer__link">Tips & Tricks</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__col">
+				<h4 class="footer__title">Contact</h4>
+
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#" class="footer__link">2464 Royal Ln. Mesa, New Jersey 45463</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="tel:6715550110" class="footer__link">(671) 555-0110</a>
+					</li>
+
+					<li class="footer__item">
+						<a href="mailto:info@hounter.com" class="footer__link">info@hounter.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 
 	<!-- interactive svgs. They will change color on hover/active so on -->
 	<svg display="none">
